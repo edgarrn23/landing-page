@@ -1,0 +1,35 @@
+main{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap:12px;
+  align-items:stretch;
+}
+header{
+  display:flex;
+  gap:12px;
+}
+div{
+    background-color:red;
+}
+header img{
+  margin-right:auto;
+}
+main .description{
+  flex-basis:100px;
+  flex-grow:1;
+}
+.description-container{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  align-items:center;
+}
+.description-info{
+  flex-basis:100px;
+  flex-grow:1;
+}
+.description-img{
+  flex-basis:20px;
+  flex-grow:1;
+}
